@@ -70,10 +70,44 @@ header{
   background: #000000;
   transition: all .4s ease-in-out;
 }
+header.fixed{
+  height: 68px;
+  box-shadow: 0 20px 40px rgba(255,165,0,0.08);
+}
+header.fixed nav{
+  height: 68px;
+  padding: 15px 0;
+}
 .logo{
   font-weight: 900;
   font-size: 20px;
   color: #ecd028;
   font-style: italic;
   text-transform: uppercase;
+}
+nav{
+  padding: 30px 0;
+  height: 82px;
+  width: 100%;
+  transition: all .4s ease-in-out;
+}
+.navigation-bar ul li{
+  display: inline-block;
+  position: relative;
+  margin: 0 25px;
+}
+.navigation-bar ul li:last-child{
+  margin-right: 0;
+}
+.navigation-bar ul li a{
+  position: relative;
+  font-size: 16px;
+  color: #ecd028;
+  font-weight: 400;
+  text-transform: capitalize;
+  transition: all .4s ease-in-out;
+}
+.navigation-bar ul li a:hover,
+.navigation-bar ul li.active a{
+  color: #ffffff;
 }
