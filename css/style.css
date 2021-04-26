@@ -105,9 +105,29 @@ nav{
   color: #ecd028;
   font-weight: 400;
   text-transform: capitalize;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .navigation-bar ul li a:hover,
 .navigation-bar ul li.active a{
   color: #ffffff;
+}
+.burger{
+  width: 25px;
+  cursor: pointer;
+  display: none;
+}
+.burger span{
+  display: block;
+  background-color: #ffffff;
+  width: 100px;
+  height: 3px;
+  margin-bottom: 4px;
+  border-radius: 10px;
+  transition: margin-bottom 0.4s ease-in-out;
+}
+.burger span:last-child{
+  margin-bottom: 0;
+}
+.burger:hover span{
+  margin-bottom: 5px;
 }
