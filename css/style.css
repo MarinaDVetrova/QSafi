@@ -58,7 +58,7 @@ input:focus{
   display: -o-flex;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  <!-- align-items: center; -->
 }
 header{
   height: 83px;
@@ -68,7 +68,7 @@ header{
   width: 100%;
   z-index: 3;
   background: #000000;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 header.fixed{
   height: 68px;
@@ -89,7 +89,7 @@ nav{
   padding: 30px 0;
   height: 82px;
   width: 100%;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .navigation-bar ul li{
   display: inline-block;
